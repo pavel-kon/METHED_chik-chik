@@ -1,32 +1,44 @@
 .reserve {
+	padding: 62px 0 124px;
 }
-.container {
-}
-.reserve__title {
-}
+
 .reserve__list {
+	padding-left: 1.5em;
+	margin: 0 0 4.5em;
+	line-height: 1.5;
 }
-.reserve__item {
+.reserve__item:not(:last-child) {
+	margin-bottom: 0.5em;
 }
-.reserve__form {
-}
+
 .reserve__form-container {
+	margin-bottom: 2.5em;
 }
 .reserve__fieldset {
+	font-size: 1.4rem;
+	padding: 0;
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 0 0 4.5em;
 }
+.reserve__fieldset:last-child {
+	margin-bottom: 0;
+}
+
 .reserve__legend {
+	flex-basis: 100%;
+	font-size: 2.2rem;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-bottom: 1.09em;
 }
-.radio {
-}
-.radio__input {
-}
-.radio__label {
-}
-.radio__label_spec {
-}
+
 .reserve__fieldset_sub {
+	flex-basis: 100%;
+	margin-bottom: 1.7142em;
 }
 .reserve__btn {
-}
-.main-link {
 }
