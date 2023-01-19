@@ -1,0 +1,83 @@
+.price {
+	padding: 62px 0;
+}
+.price__title {
+	/*!  В файле style стили для h2 */
+	/* font-size: clamp(2rem, 2.5vw + 1.047rem, 4rem);
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0 0 0.4em; */
+}
+.price__tagline {
+	font-size: 1.6rem;
+	margin: 0 0 2.5em;
+}
+.price__wrapper-content {
+	display: flex;
+	gap: 32px;
+}
+
+.price__wrapper-content::before {
+	content: '';
+	flex: 1;
+	/*! flex-basis: 50%; */
+	background-position: top;
+	background-size: cover;
+	background-image: url(../img/price-wall.jpg);
+}
+.price__content {
+	flex: 1;
+	/*! flex-basis: 50%; */
+}
+.price__list {
+	font-size: 1.4rem;
+	margin: 0 0 4.428em;
+	padding: 0;
+	list-style: none;
+}
+.price__item {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.4rem;
+	line-height: 1;
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+	margin-bottom: 1.714em;
+	border-bottom: 1px solid #bfbdb2;
+}
+.price__item:last-child {
+	margin-bottom: 0;
+}
+.price__item-count {
+	text-transform: lowercase;
+	white-space: nowrap;
+}
+
+/**========================== MEDIA-QUERY =================*/
+
+@media (max-width: 768px) {
+	.price {
+		padding: 40px 0;
+	}
+	.price__wrapper-content::before {
+		content: none;
+	}
+	.price__list {
+		margin-bottom: 4em;
+	}
+}
+
+@media (max-width: 560px) {
+	.price {
+		padding: 32px 0;
+	}
+	.price__list {
+		font-size: 1.4rem;
+		margin-bottom: 1.7143em;
+	}
+	.price__item {
+		padding-bottom: 0.4286em;
+		margin-bottom: 1.1428em;
+		line-height: 1.2;
+	}
+}
