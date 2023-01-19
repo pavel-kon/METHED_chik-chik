@@ -20,7 +20,7 @@
 	opacity: 0.4;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 560px) {
 	.main-link {
 		font-size: 12px;
 	}
