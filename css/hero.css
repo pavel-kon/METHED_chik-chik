@@ -1,0 +1,16 @@
+.hero {
+	/* padding: 62px 0; */
+	/* font-size: 5.4rem; */
+	font-size: clamp(2.4rem, 3.185vw + 0.923rem, 5.4rem);
+	padding: 1.148em 0;
+}
+
+.hero__title {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #f6f3e3;
+	max-width: 904px;
+	/* margin: 0 0 36px; */
+	margin-bottom: 0.667em;
+}
