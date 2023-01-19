@@ -1,0 +1,44 @@
+.about {
+	padding: 3.875em 0;
+}
+.about__title {
+	width: 75%;
+}
+.about__description {
+	width: 75%;
+	line-height: 1.5;
+	margin: 0 0 4.5em;
+}
+.about__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+	gap: 1.5em 2em;
+}
+.about__item {
+	padding: 6px 6px 6px 96px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 80px;
+}
+.about__item_top {
+	background-image: url(../img/top.svg);
+}
+.about__item_master {
+	background-image: url(../img/master.svg);
+}
+.about__item_garantie {
+	background-image: url(../img/garantie.svg);
+}
+
+.about__item-title {
+	font-size: 2.2rem;
+	margin: 0 0 0.3636em;
+	text-transform: uppercase;
+}
+.about__item-description {
+	margin: 0;
+	line-height: 1.3;
+}
