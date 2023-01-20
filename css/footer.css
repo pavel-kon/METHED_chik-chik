@@ -9,6 +9,7 @@
 }
 
 .copyright {
+	max-width: 1360px;
 	width: 90.625%;
 	margin-inline: auto;
 }
