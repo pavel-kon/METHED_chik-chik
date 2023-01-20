@@ -14,3 +14,7 @@
 	/* margin: 0 0 36px; */
 	margin: 0 0 0.667em;
 }
+
+.hero__slider {
+	min-height: 372px;
+}
