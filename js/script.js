@@ -9,8 +9,8 @@ const removePreload = (elem) => {
 const startSlider = () => {
 	const sliderItems = document.querySelectorAll('.slider__item');
 	const sliderList = document.querySelector('.slider__list');
-	const btnPrevSlide = document.querySelector('.slide__arrow_left');
-	const btnNextSlide = document.querySelector('.slide__arrow_right');
+	const btnPrevSlide = document.querySelector('.slider__arrow_left');
+	const btnNextSlide = document.querySelector('.slider__arrow_right');
 
 	let activeSlide = 1;
 	let position = 0;
