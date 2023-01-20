@@ -15,11 +15,11 @@
 	padding: 0 16px;
 	flex-grow: 0;
 	flex-shrink: 0;
-	max-width: 27%;
+	max-width: 28%;
 }
 
 .slider__item_active {
-	max-width: 46%;
+	max-width: 44%;
 }
 
 .slider__arrow {
