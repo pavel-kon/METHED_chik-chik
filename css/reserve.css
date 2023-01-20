@@ -42,3 +42,25 @@
 }
 .reserve__btn {
 }
+
+@media (max-width: 1024px) {
+	.reserve {
+		padding: 40px 0 80px;
+	}
+}
+@media (max-width: 768px) {
+	.reserve__list {
+		margin: 0 0 2.5em;
+	}
+	.reserve__legend {
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 560px) {
+	.reserve {
+		padding: 32px 0 64px;
+	}
+	.reserve__list {
+		font-size: 1.2rem;
+	}
+}

@@ -1,0 +1,33 @@
+.footer {
+}
+.footer__container {
+	padding-top: 18px;
+	border-top: 1px solid #bfbdb2;
+}
+.footer__logo {
+	margin-bottom: 32px;
+}
+
+.copyright {
+	width: 90.625%;
+	margin-inline: auto;
+}
+@media (min-width: 320px) {
+	.footer__logo {
+		margin-bottom: 0;
+	}
+	.footer__container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.footer__navigation {
+		flex: 1;
+	}
+
+	.footer__navigation .navigation__list {
+		justify-content: center;
+	}
+}
