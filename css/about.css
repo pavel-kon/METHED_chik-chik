@@ -18,12 +18,11 @@
 	gap: 1.5em 2em;
 }
 .about__item {
-	padding: 6px 6px 6px 96px;
-	background-position: left;
+	padding: 6px 0 6px 96px;
+	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: 80px;
-	min-height: 92px;
-	vertical-align: baseline;
+	min-height: 80px;
 }
 .about__item_top {
 	background-image: url(../img/top.svg);

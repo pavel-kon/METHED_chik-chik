@@ -1,4 +1,11 @@
 .footer {
+	font-size: 1.4rem;
+}
+.footer dt {
+	font-style: italic;
+}
+dd:not(:last-child) {
+	margin-bottom: 0.6em;
 }
 .footer__container {
 	padding-top: 18px;
@@ -13,7 +20,11 @@
 	width: 90.625%;
 	margin-inline: auto;
 }
-@media (min-width: 320px) {
+
+@media (min-width: 560px) {
+	.footer {
+		font-size: 1.6rem;
+	}
 	.footer__logo {
 		margin-bottom: 0;
 	}
